@@ -1,0 +1,37 @@
+import java.util.Scanner;
+/**
+ *
+ * @author RC_Student_lab
+ */
+public class Registration {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String username;
+        String password;
+        String firstname;
+        String lastname;
+    
+    
+   
+        System.out.print("Enter username");
+        username = input.nextLine();
+        System.out.print("Enter password");
+        password = input.nextLine();
+        System.out.print("Enter your firstname");
+        firstname = input.nextLine();
+        System.out.println("Enter your last name");
+        lastname = input.nextLine();
+        
+        if (username.equals("Mandy_2") && (password.equals("Klerkson4@"))){
+         System.out.println("Welcome Mandy Klerkson, it is great to see you again");
+    } else {
+         System.out.print("Username or password incorrect, please try again");  
+    
+          
+}
+    }
+}

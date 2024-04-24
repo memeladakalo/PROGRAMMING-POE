@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+
+
+public class Login {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        String username;
+        String password;
+        
+        
+        
+   System.out.println("Enter username");
+   username = input.nextLine();
+   System.out.println("Enter password");
+   password = input.nextLine();
+   
+ if (username.equals("Mandy_2") && (password.equals("Klerkson4@"))){
+        System.out.println("Welcome Mandy Klerkson,it is great to see you again");
+        
+    } else 
+           System.out.print("Username or password incorrect, please try again") ;
+}
+    
+
+    } 
